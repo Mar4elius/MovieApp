@@ -4,7 +4,7 @@
 
 
 @media(min-width:960px){
-#movies.col-md-3.well{
+#movies.col-md-3.card-deck{
     height: 390px;
 }
 
@@ -12,3 +12,13 @@
     height: 240px;
 }
 }
+/* https://teamtreehouse.com/library/creating-a-sticky-footer-with-flexbox */
+/* When you make body a flex container, it lays out all its direct children horizontally on a single line.
+Setting the flex-direction of body to column stacks its flex items vertically.
+1vh is equal to 1/100th or 1% of the viewport height. */
+
+  body {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+ 
